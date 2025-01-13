@@ -2,12 +2,12 @@ proj:
   outputs:
     default:
       type: snowflake
-      account: "YCHNEDH-VGB39890"         # Replace with your Snowflake account
-      user: "DIVYA1005"               # Replace with your Snowflake username
-      password: "Divya@100502"       # Replace with your Snowflake password
-      role: "ACCOUNTADMIN"               # Replace with your Snowflake role
-      database: "project"        # Replace with your Snowflake database name
-      warehouse: "compute_wh"     # Replace with your Snowflake warehouse name
+      account: "**"         # Replace ** with your Snowflake account
+      user: "**"               # Replace ** with your Snowflake username
+      password: "**"       # Replace ** with your Snowflake password
+      role: "**"               # Replace ** with your Snowflake role
+      database: "**"        # Replace ** with your Snowflake database name
+      warehouse: "**"     # Replace ** with your Snowflake warehouse name
       schema: analytics
       threads: 1
   target: default
